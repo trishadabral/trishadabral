@@ -65,12 +65,16 @@ My work mainly involves data structures, algorithms, and full-stack development.
 
 ---
 
-## Contribution Graph
+## Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/trishadabral/trishadabral/output/snake-dark.svg" alt="Snake animation" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=trishadabral&theme=tokyo-night&hide_border=true&area=true" width="95%" />
 </p>
 
----
+## Contribution
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/trishadabral/trishadabral/output/github-snake.svg" />
+</p>
 
 <p align="center"><i>"Clarity in thinking leads to clarity in code."</i></p>
