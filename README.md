@@ -67,6 +67,6 @@ My work mainly involves data structures, algorithms, and full-stack development.
 
 ## Contribution
 <p align="center">
-  <img src="https://raw.githubusercontent.com/trishadabral/trishadabral/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/trishadabral/trishadabral/output/snake-dark.svg" />
 </p>
 <p align="center"><i>"Clarity in thinking leads to clarity in code."</i></p>
