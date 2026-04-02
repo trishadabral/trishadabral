@@ -99,16 +99,11 @@ A machine learning-based project idea for prediction and assistance.
 
 ---
 
-## ✨ Little Quote
 
-<p align="center"><i>"Good projects are not just pretty — they solve real problems."</i></p>
-
----
-
-## 🐍 Contribution Snake
+## Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/trishadabral/trishadabral/output/snake.svg" alt="Snake animation" />
 </p>
 
 ---
