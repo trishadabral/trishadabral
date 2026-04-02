@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./trishadabral_github_banner.svg" width="100%" />
+  <img src="./banner.svg" width="100%" />
 </p>
 
 ---
