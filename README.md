@@ -15,11 +15,6 @@ My work mainly involves data structures, algorithms, and full-stack development.
 ## GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=trishadabral&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trishadabral&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-</p>
-
-<p align="center">
   <img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=trishadabral&theme=tokyonight&hide_border=true" />
 </p>
 
@@ -73,7 +68,7 @@ My work mainly involves data structures, algorithms, and full-stack development.
 ## Contribution
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/trishadabral/trishadabral/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/trishadabral/trishadabral/output/github-snake.svg" alt="Snake animation" />
 </p>
 
 <p align="center"><i>"Clarity in thinking leads to clarity in code."</i></p>
