@@ -1,6 +1,4 @@
 <h1 align="center">Hi, I'm Trisha Dabral</h1>
-<h3 align="center">Computer Science Student</h3>
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=20&pause=1200&color=6C63FF&center=true&vCenter=true&width=700&lines=Computer+Science+student;Interested+in+algorithms+and+system+design;Building+clean+and+functional+applications" alt="Typing SVG" />
 </p>
@@ -18,8 +16,8 @@ My work mainly involves data structures, algorithms, and full-stack development.
 ## GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=trishadabral&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trishadabral&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=trishadabral&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trishadabral&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 </p>
 
 <p align="center">
@@ -29,8 +27,6 @@ My work mainly involves data structures, algorithms, and full-stack development.
 <p align="center">
   <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=trishadabral&theme=tokyonight" />
 </p>
-
----
 
 ## Tools and Technologies
 
