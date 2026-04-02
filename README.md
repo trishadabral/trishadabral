@@ -1,9 +1,6 @@
 <p align="center">
   <img src="./trishadabral_github_banner.svg" width="100%" />
 </p>
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=20&pause=1200&color=6C63FF&center=true&vCenter=true&width=700&lines=Computer+Science+student;Interested+in+algorithms+and+system+design;Building+clean+and+functional+applications" alt="Typing SVG" />
-</p>
 
 ---
 
