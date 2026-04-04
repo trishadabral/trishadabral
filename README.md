@@ -36,9 +36,9 @@ My work mainly involves data structures, algorithms, and full-stack development.
   <a href="https://github.com/trishadabral">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/in/trisha-dabral/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <a href="https://www.linkedin.com/in/trisha-dabral-81b40134b/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
   <a href="https://leetcode.com/trishaha/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
@@ -52,9 +52,9 @@ My work mainly involves data structures, algorithms, and full-stack development.
   <a href="mailto:trishadabral@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="www.linkedin.com/in/trisha-dabral-81b40134b">
-    <img src="https://img.shields.io/badge/LinkedIn-6C63FF?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <a href="https://www.linkedin.com/in/trisha-dabral-81b40134b/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 </p>
 
 ---
