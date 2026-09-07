@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="4580" viewBox="0 0 1200 4580" role="img" aria-label="Trisha Dabral Engineering Portfolio">
+
+<style>
+:root{
+  --paper:#f6f8fc;--panel:rgba(255,255,255,.84);--ink:#15213a;--muted:#5d6b80;
+  --line:rgba(40,58,93,.16);--navy:#172e62;--indigo:#4257a8;--teal:#187f83;
+  --violet:#7962aa;--soft-indigo:#e7ebfb;--soft-teal:#e3f2f0;--soft-violet:#f0ebf8;
+}
+text{font-family:"Segoe UI",Arial,sans-serif;fill:var(--ink)}
+.display{font-family:Georgia,"Times New Roman",serif;font-weight:700}
+.mono{font-family:"Courier New",ui-monospace,monospace}
+@keyframes dash{to{stroke-dashoffset:-160}}
+@keyframes pulse{0%,100%{opacity:.42;transform:scale(.88)}50%{opacity:1;transform:scale(1.18)}}
+@keyframes floatShape{0%,100%{transform:translate(0,0) rotate(0deg)}50%{transform:translate(-10px,12px) rotate(8deg)}}
+@keyframes fadeLine{0%,100%{opacity:.55}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+
+
+<defs>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" fill="none" stroke="#d8e0eb" stroke-width="1" opacity=".62"/>
+  </pattern>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+    <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1a2b4c" flood-opacity=".08"/>
+  </filter>
+  <linearGradient id="heroWash" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f7fbff"/>
+    <stop offset=".65" stop-color="#eef4fb"/>
+    <stop offset="1" stop-color="#e9f7f4"/>
+  </linearGradient>
+  <linearGradient id="sideWash" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#dfe9f8"/>
+    <stop offset="1" stop-color="#dff0ec"/>
+  </linearGradient>
+  <radialGradient id="ambient1" cx="92%" cy="3%" r="48%">
+    <stop offset="0" stop-color="#6972ca" stop-opacity=".14"/>
+    <stop offset="1" stop-color="#6972ca" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="ambient2" cx="5%" cy="40%" r="45%">
+    <stop offset="0" stop-color="#187f83" stop-opacity=".10"/>
+    <stop offset="1" stop-color="#187f83" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<rect width="1200" height="4580" fill="var(--paper)"/><rect width="1200" height="4580" fill="url(#grid)"/><rect width="1200" height="4580" fill="url(#ambient1)"/><rect width="1200" height="4580" fill="url(#ambient2)"/>
+<g filter="url(#shadow)">
+  <rect x="38" y="28" width="1124" height="60" rx="18" fill="#fff" fill-opacity=".93" stroke="var(--line)"/>
+</g>
+<circle cx="68" cy="58" r="11" fill="#dff2f1"/><circle cx="68" cy="58" r="5.5" fill="var(--teal)"/>
+<text x="90" y="64" class="mono" font-size="13" font-weight="700" letter-spacing="2">TRISHA DABRAL</text>
+<text x="704" y="63" font-size="14" fill="var(--muted)">Profile</text>
+<text x="770" y="63" font-size="14" fill="var(--muted)">Stack</text>
+<text x="830" y="63" font-size="14" fill="var(--muted)">Selected Work</text>
+<text x="955" y="63" font-size="14" fill="var(--muted)">Signals</text>
+<text x="1020" y="63" font-size="14" fill="var(--muted)">Connect</text>
+
+<g filter="url(#shadow)">
+  <rect x="38" y="112" width="1124" height="610" rx="30" fill="url(#heroWash)" stroke="var(--line)"/>
+</g>
+<text x="106" y="197" class="mono" font-size="12" font-weight="700" letter-spacing="3.8" fill="var(--teal)">ENGINEERING PORTFOLIO</text>
+<text x="106" y="270" class="display" font-size="42">Trisha Dabral</text>
+<text x="106" y="325" font-size="33" font-weight="700" fill="var(--indigo)">AI Full Stack Developer</text>
+<text x="106" y="390" font-size="18" fill="var(--muted)">Building intelligent, scalable applications across Full Stack Development and AI/ML.</text>
+<text x="106" y="458" class="mono" font-size="15" font-weight="700" fill="var(--teal)">Direction /</text>
+<text x="220" y="451" font-size="16" font-weight="700">AI / Machine Learning</text>
+
+<g transform="translate(680 215)">
+  <circle cx="246" cy="177" r="132" fill="none" stroke="var(--line)" stroke-width="1"/>
+  <circle cx="246" cy="177" r="81" fill="none" stroke="var(--line)" stroke-width="1"/>
+  <path d="M75 183 L154 87 L246 129 L363 72 L426 152 L346 253 L236 286 L137 250 Z"
+        fill="none" stroke="var(--teal)" stroke-width="1.15" opacity=".42" stroke-dasharray="4 8" style="animation:dash 18s linear infinite"/>
+  <path d="M75 183 L236 286 L246 129 L346 253 L426 152"
+        fill="none" stroke="var(--indigo)" stroke-width="1.15" opacity=".4" stroke-dasharray="4 8" style="animation:dash 18s linear infinite reverse"/>
+  <path d="M154 87 L137 250 L363 72 L346 253"
+        fill="none" stroke="var(--teal)" stroke-width="1.15" opacity=".38" stroke-dasharray="4 8" style="animation:dash 20s linear infinite"/>
+  <circle cx="75" cy="183" r="7" fill="var(--teal)"/>
+  <circle cx="154" cy="87" r="8" fill="var(--indigo)"/>
+  <circle cx="246" cy="129" r="11" fill="var(--teal)"/>
+  <circle cx="363" cy="72" r="7" fill="var(--violet)"/>
+  <circle cx="426" cy="152" r="8" fill="var(--teal)"/>
+  <circle cx="346" cy="253" r="9" fill="var(--indigo)"/>
+  <circle cx="236" cy="286" r="7" fill="var(--teal)"/>
+  <circle cx="137" cy="250" r="7" fill="var(--violet)"/>
+  <circle cx="195" cy="103" r="5" fill="var(--teal)" style="animation:pulse 6s ease-in-out infinite;transform-origin:195px 103px"/>
+  <circle cx="387" cy="111" r="5" fill="var(--teal)" style="animation:pulse 6s ease-in-out infinite -2s;transform-origin:387px 111px"/>
+  <circle cx="183" cy="268" r="5" fill="var(--teal)" style="animation:pulse 6s ease-in-out infinite -4s;transform-origin:183px 268px"/>
+  <rect x="206" y="156" width="80" height="42" rx="10" fill="#f8fbff" stroke="var(--indigo)" stroke-width="1.2" opacity=".75"/>
+  <path d="M220 177h13m9 0h14m9 0h8" stroke="var(--teal)" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<text x="30" y="800" class="mono" font-size="12" font-weight="700" letter-spacing="3.7" fill="var(--teal)">01 / TECHNICAL DIRECTION</text>
+<text x="310" y="808" class="display" font-size="31">Technical Profile</text>
+<line x1="548" y1="795" x2="1165" y2="795" stroke="var(--line)" style="animation:fadeLine 12s ease-in-out infinite"/>
+
+<g filter="url(#shadow)">
+  <rect x="30" y="842" width="540" height="285" rx="18" fill="#fff" fill-opacity=".90" stroke="var(--line)"/>
+  <rect x="594" y="842" width="540" height="285" rx="18" fill="#fff" fill-opacity=".90" stroke="var(--line)"/>
+</g>
+<text x="72" y="898" font-size="13" font-weight="700" letter-spacing="1.4" fill="var(--indigo)">FOCUS</text>
+<circle cx="78" cy="949" r="4" fill="var(--teal)"/><text x="98" y="954" font-size="18" font-weight="600">AI Full Stack Development</text>
+<circle cx="78" cy="991" r="4" fill="var(--teal)"/><text x="98" y="996" font-size="18" font-weight="600">Backend Engineering</text>
+<circle cx="78" cy="1033" r="4" fill="var(--teal)"/><text x="98" y="1038" font-size="18" font-weight="600">Applied AI / ML</text>
+
+<text x="636" y="898" font-size="13" font-weight="700" letter-spacing="1.4" fill="var(--indigo)">FOUNDATION</text>
+<circle cx="642" cy="949" r="4" fill="var(--violet)"/><text x="662" y="954" font-size="18" font-weight="600">Data Structures &amp; Algorithms</text>
+<circle cx="642" cy="991" r="4" fill="var(--violet)"/><text x="662" y="996" font-size="18" font-weight="600">Object-Oriented Programming</text>
+<circle cx="642" cy="1033" r="4" fill="var(--violet)"/><text x="662" y="1038" font-size="18" font-weight="600">DBMS</text>
+<circle cx="642" cy="1075" r="4" fill="var(--violet)"/><text x="662" y="1080" font-size="18" font-weight="600">Operating Systems</text>
+
+<text x="30" y="1202" class="mono" font-size="12" font-weight="700" letter-spacing="3.7" fill="var(--teal)">02 / WORKING TOOLKIT</text>
+<text x="268" y="1210" class="display" font-size="31">Technical Stack</text>
+<line x1="500" y1="1197" x2="1165" y2="1197" stroke="var(--line)" style="animation:fadeLine 12s ease-in-out infinite"/>
+
+<g filter="url(#shadow)">
+  <rect x="30" y="1245" width="1104" height="690" rx="20" fill="#fff" fill-opacity=".90" stroke="var(--line)"/>
+</g>
+
+<!-- category 1 -->
+<text x="70" y="1303" font-size="13" font-weight="700" letter-spacing="1.2" fill="var(--navy)">LANGUAGES</text>
+<g font-size="15" fill="var(--muted)">
+  <text x="356" y="1310" font-size="18" font-weight="700" fill="var(--indigo)">C++</text><text x="398" y="1310" fill="var(--muted)">C++</text>
+  <text x="545" y="1310" font-size="18" font-weight="700" fill="var(--indigo)">Java</text>
+  <text x="735" y="1310" font-size="18" font-weight="700" fill="var(--indigo)">Py</text><text x="767" y="1310" fill="var(--muted)">Python</text>
+  <text x="356" y="1360" font-size="18" font-weight="700" fill="var(--indigo)">JS</text><text x="390" y="1360" fill="var(--muted)">JavaScript</text>
+  <text x="545" y="1360" font-size="18" font-weight="700" fill="var(--indigo)">SQL</text><text x="585" y="1360" fill="var(--muted)">SQL</text>
+</g>
+<line x1="50" y1="1398" x2="1114" y2="1398" stroke="var(--line)"/>
+
+<!-- category 2 -->
+<text x="70" y="1448" font-size="13" font-weight="700" letter-spacing="1.2" fill="var(--navy)">FRONTEND</text>
+<text x="356" y="1455" font-size="16" font-weight="700" fill="var(--indigo)">HTML5</text>
+<text x="545" y="1455" font-size="16" font-weight="700" fill="var(--indigo)">CSS3</text>
+<text x="735" y="1455" font-size="16" font-weight="700" fill="var(--indigo)">JavaScript</text>
+<line x1="50" y1="1495" x2="1114" y2="1495" stroke="var(--line)"/>
+
+<!-- category 3 -->
+<text x="70" y="1545" font-size="13" font-weight="700" letter-spacing="1.2" fill="var(--navy)">BACKEND</text>
+<text x="356" y="1552" font-size="16" font-weight="700" fill="var(--indigo)">Flask</text>
+<text x="545" y="1552" font-size="19" font-weight="700" fill="var(--muted)">{ }</text><text x="584" y="1552" font-size="15" fill="var(--muted)">REST APIs</text>
+<line x1="50" y1="1592" x2="1114" y2="1592" stroke="var(--line)"/>
+
+<!-- category 4 -->
+<text x="70" y="1642" font-size="13" font-weight="700" letter-spacing="1.2" fill="var(--navy)">AI / DATA</text>
+<text x="356" y="1649" font-size="15" fill="var(--muted)">Machine Learning</text>
+<text x="545" y="1649" font-size="15" fill="var(--muted)">NLP</text>
+<text x="735" y="1649" font-size="15" fill="var(--muted)">NumPy</text>
+<text x="356" y="1699" font-size="15" fill="var(--muted)">Pandas</text>
+<text x="545" y="1699" font-size="15" fill="var(--muted)">Sentence Transformers</text>
+<line x1="50" y1="1738" x2="1114" y2="1738" stroke="var(--line)"/>
+
+<!-- category 5: fully visible -->
+<text x="70" y="1788" font-size="13" font-weight="700" letter-spacing="1.2" fill="var(--navy)">DEVELOPER TOOLS</text>
+<text x="356" y="1795" font-size="15" fill="var(--muted)">Git</text>
+<text x="500" y="1795" font-size="15" fill="var(--muted)">GitHub</text>
+<text x="650" y="1795" font-size="15" fill="var(--muted)">VS Code</text>
+<text x="802" y="1795" font-size="15" fill="var(--muted)">IntelliJ IDEA</text>
+<text x="960" y="1795" font-size="15" fill="var(--muted)">PyMuPDF</text>
+
+<text x="30" y="2025" class="mono" font-size="12" font-weight="700" letter-spacing="3.7" fill="var(--teal)">03 / PROJECT EVIDENCE</text>
+<text x="275" y="2033" class="display" font-size="31">Selected Work</text>
+<line x1="500" y1="2020" x2="1165" y2="2020" stroke="var(--line)" style="animation:fadeLine 12s ease-in-out infinite"/>
+
+<g filter="url(#shadow)">
+  <rect x="30" y="2070" width="1104" height="430" rx="22" fill="#fff" fill-opacity=".91" stroke="var(--line)"/>
+</g>
+<rect x="730" y="2070" width="404" height="430" rx="0 22 22 0" fill="url(#sideWash)" stroke="none"/>
+<text x="72" y="2128" class="mono" font-size="12" font-weight="700" letter-spacing="3.5" fill="var(--teal)">01 / FLAGSHIP PROJECT</text>
+<text x="72" y="2182" class="display" font-size="30">Tutor AI</text>
+<text x="72" y="2218" font-size="17" font-weight="700" fill="var(--indigo)">AI-powered intelligent learning platform</text>
+<text x="72" y="2264" font-size="15" fill="var(--muted)">Tutor AI addresses the need for accessible, contextual learning support</text>
+<text x="72" y="2286" font-size="15" fill="var(--muted)">by pairing a structured full-stack interface with AI-assisted explanations.</text>
+<text x="72" y="2308" font-size="15" fill="var(--muted)">The application workflow, backend endpoints, and NLP response layer</text>
+<text x="72" y="2330" font-size="15" fill="var(--muted)">make learning interactions more useful and adaptive.</text>
+<text x="72" y="2382" font-size="14" fill="var(--muted)">Python  ·  Flask  ·  NLP  ·  REST APIs</text>
+<text x="72" y="2440" font-size="14" font-weight="700" fill="var(--teal)">View Repository ↗</text>
+
+<path d="M966 2070c0 0-20 92 14 144 33 51 85 64 154 65" fill="none" stroke="#a9c2e1" stroke-width="1.1" style="animation:floatShape 17s ease-in-out infinite"/>
+<circle cx="802" cy="2467" r="78" fill="none" stroke="#97c7d0" stroke-width="1.1" style="animation:floatShape 14s ease-in-out infinite reverse"/>
+<text x="770" y="2146" font-size="13" font-weight="700">Problem</text>
+<text x="770" y="2175" font-size="13" fill="var(--muted)">Learning support often lacks context,</text>
+<text x="770" y="2194" font-size="13" fill="var(--muted)">pacing, and clear explanations.</text>
+<line x1="770" y1="2222" x2="1090" y2="2222" stroke="var(--line)"/>
+<text x="770" y="2252" font-size="13" font-weight="700">Engineering</text>
+<text x="770" y="2281" font-size="13" fill="var(--muted)">Full-stack interaction flow, API design,</text>
+<text x="770" y="2300" font-size="13" fill="var(--muted)">and clean backend orchestration.</text>
+<line x1="770" y1="2328" x2="1090" y2="2328" stroke="var(--line)"/>
+<text x="770" y="2358" font-size="13" font-weight="700">AI Application</text>
+<text x="770" y="2387" font-size="13" fill="var(--muted)">Language-aware processing supports</text>
+<text x="770" y="2406" font-size="13" fill="var(--muted)">tailored academic guidance.</text>
+
+<g filter="url(#shadow)">
+  <rect x="30" y="2520" width="490" height="355" rx="20" fill="#fff" fill-opacity=".91" stroke="var(--line)"/>
+  <rect x="540" y="2520" width="594" height="355" rx="20" fill="url(#heroWash)" stroke="var(--line)"/>
+</g>
+<text x="66" y="2578" class="mono" font-size="12" font-weight="700" letter-spacing="3.3" fill="var(--teal)">02 / AI + DOCUMENT PROCESSING</text>
+<text x="66" y="2630" class="display" font-size="27">Smart Resume Analyzer</text>
+<text x="66" y="2663" font-size="15" font-weight="700" fill="var(--indigo)">NLP-based semantic matching and ATS-style scoring</text>
+<text x="66" y="2708" font-size="14" fill="var(--muted)">AI-powered resume analysis that extracts PDF content,</text>
+<text x="66" y="2729" font-size="14" fill="var(--muted)">processes candidate information, and compares semantic</text>
+<text x="66" y="2750" font-size="14" fill="var(--muted)">relevance against role requirements.</text>
+<text x="66" y="2797" font-size="13" fill="var(--muted)">Python · Semantic Similarity · PDF · Flask</text>
+<text x="66" y="2847" font-size="14" font-weight="700" fill="var(--teal)">View Repository ↗</text>
+
+<path d="M951 2520c0 0 8 92 66 132 32 22 72 30 117 31" fill="none" stroke="#d0c8e7" stroke-width="1.1"/>
+<rect x="1000" y="2740" width="74" height="74" rx="18" fill="none" stroke="#8bc8d0" transform="rotate(45 1037 2777)" style="animation:floatShape 15s ease-in-out infinite"/>
+<text x="576" y="2578" class="mono" font-size="12" font-weight="700" letter-spacing="3.3" fill="var(--teal)">03 / MACHINE LEARNING SYSTEM</text>
+<text x="576" y="2630" class="display" font-size="27">Cognisafe</text>
+<text x="576" y="2663" font-size="15" font-weight="700" fill="var(--indigo)">Cognitive health monitoring and risk classification</text>
+<text x="576" y="2708" font-size="14" fill="var(--muted)">Machine-learning system for behavioural indicators,</text>
+<text x="576" y="2729" font-size="14" fill="var(--muted)">cognitive risk patterns, data preparation, and</text>
+<text x="576" y="2750" font-size="14" fill="var(--muted)">interpretable model-oriented classification.</text>
+<text x="576" y="2797" font-size="13" fill="var(--muted)">Python · Data Processing · ML Classification · Pandas</text>
+<text x="576" y="2847" font-size="14" font-weight="700" fill="var(--teal)">View Repository ↗</text>
+
+<text x="30" y="2950" class="mono" font-size="12" font-weight="700" letter-spacing="3.7" fill="var(--teal)">04 / ENGINEERING SIGNALS</text>
+<text x="300" y="2958" class="display" font-size="31">Evidence of Practice</text>
+<line x1="610" y1="2945" x2="1165" y2="2945" stroke="var(--line)" style="animation:fadeLine 12s ease-in-out infinite"/>
+
+<g filter="url(#shadow)">
+  <rect x="30" y="2995" width="1104" height="470" rx="18" fill="#f9fbfd" stroke="#aebdce"/>
+</g>
+<line x1="582" y1="2995" x2="582" y2="3465" stroke="var(--line)"/>
+<line x1="30" y1="3230" x2="1134" y2="3230" stroke="var(--line)"/>
+<text x="70" y="3068" font-size="34" font-weight="700" fill="var(--navy)">200+</text>
+<text x="70" y="3107" font-size="16" font-weight="700">DSA Problems Solved</text>
+<text x="70" y="3138" font-size="14" fill="var(--muted)">Consistent algorithmic problem-solving practice.</text>
+<text x="620" y="3068" font-size="32" font-weight="700" fill="var(--navy)">1st Runner-Up</text>
+<text x="620" y="3107" font-size="16" font-weight="700">National Hackathon</text>
+<text x="620" y="3138" font-size="14" fill="var(--muted)">Hack The Knight — collaborative delivery under constraints.</text>
+<text x="70" y="3304" font-size="32" font-weight="700" fill="var(--navy)">AI / ML</text>
+<text x="70" y="3343" font-size="16" font-weight="700">Applied Project Experience</text>
+<text x="70" y="3374" font-size="14" fill="var(--muted)">NLP, semantic matching, and classification use cases.</text>
+<text x="620" y="3304" font-size="32" font-weight="700" fill="var(--navy)">Full Stack</text>
+<text x="620" y="3343" font-size="16" font-weight="700">End-to-End Development</text>
+<text x="620" y="3374" font-size="14" fill="var(--muted)">DSA · OOP · DBMS · OS</text>
+
+<text x="30" y="3550" class="mono" font-size="12" font-weight="700" letter-spacing="3.7" fill="var(--teal)">05 / CREDENTIALS</text>
+<text x="208" y="3558" class="display" font-size="31">Certifications</text>
+<line x1="405" y1="3545" x2="1165" y2="3545" stroke="var(--line)" style="animation:fadeLine 12s ease-in-out infinite"/>
+
+<g filter="url(#shadow)">
+  <rect x="30" y="3595" width="540" height="118" rx="15" fill="#fff" fill-opacity=".92" stroke="var(--line)"/>
+  <rect x="594" y="3595" width="540" height="118" rx="15" fill="#fff" fill-opacity=".92" stroke="var(--line)"/>
+</g>
+<rect x="60" y="3625" width="58" height="58" rx="13" fill="var(--soft-indigo)"/>
+<path d="M75 3657c-7 0-12-5-12-11s5-11 12-11c4 0 8 2 10 5 2-1 4-2 7-2 6 0 11 4 11 10 0 5-5 9-11 9z" fill="none" stroke="var(--indigo)" stroke-width="3"/>
+<text x="140" y="3647" font-size="14" font-weight="600" fill="var(--muted)">Oracle Cloud Infrastructure</text>
+<text x="140" y="3675" font-size="16" font-weight="700">AI Foundations Associate</text>
+
+<rect x="624" y="3625" width="58" height="58" rx="13" fill="var(--soft-indigo)"/>
+<circle cx="653" cy="3654" r="15" fill="none" stroke="var(--indigo)" stroke-width="3"/>
+<path d="M646 3654l5 5 9-11" fill="none" stroke="var(--indigo)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="705" y="3647" font-size="14" font-weight="600" fill="var(--muted)">IBM</text>
+<text x="705" y="3675" font-size="16" font-weight="700">Machine Learning Certification</text>
+
+<g filter="url(#shadow)">
+  <rect x="30" y="3795" width="1104" height="360" rx="19" fill="url(#heroWash)" stroke="var(--line)"/>
+</g>
+<text x="78" y="3880" class="display" font-size="31">Connect</text>
+<text x="78" y="3920" font-size="16" fill="var(--muted)">Professional profiles and coding practice.</text>
+
+<a href="https://www.linkedin.com/in/trisha-dabral-81b40134b">
+  <rect x="78" y="3974" width="160" height="66" rx="10" fill="#fff" fill-opacity=".88" stroke="var(--line)"/>
+  <text x="102" y="4016" font-size="22" font-weight="700">in</text><text x="145" y="4014" font-size="15" font-weight="700">LinkedIn</text>
+</a>
+<a href="https://github.com/trishadabral">
+  <rect x="252" y="3974" width="150" height="66" rx="10" fill="#fff" fill-opacity=".88" stroke="var(--line)"/>
+  <text x="278" y="4016" font-size="18" font-weight="700">GH</text><text x="320" y="4014" font-size="15" font-weight="700">GitHub</text>
+</a>
+<a href="https://leetcode.com/u/trishaha/">
+  <rect x="416" y="3974" width="170" height="66" rx="10" fill="#fff" fill-opacity=".88" stroke="var(--line)"/>
+  <text x="440" y="4016" font-size="20" font-weight="700">&lt;/&gt;</text><text x="489" y="4014" font-size="15" font-weight="700">LeetCode</text>
+</a>
+<a href="mailto:trishadabral@gmail.com">
+  <rect x="600" y="3974" width="145" height="66" rx="10" fill="#fff" fill-opacity=".88" stroke="var(--line)"/>
+  <rect x="624" y="3996" width="29" height="22" rx="3" fill="none" stroke="var(--ink)" stroke-width="2.6"/>
+  <path d="M624 3998l14.5 11 14.5-11" fill="none" stroke="var(--ink)" stroke-width="2.6"/>
+  <text x="667" y="4014" font-size="15" font-weight="700">Email</text>
+</a>
+
+</svg>
