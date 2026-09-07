@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1155" height="581" viewBox="0 0 1155 581" role="img" aria-label="Selected Work Cognisafe">
+
+<style>
+:root{
+  --bg:#f4f7fb;
+  --grid:#dfe6ef;
+  --card:#ffffff;
+  --panel:#edf6f9;
+  --ink:#17233d;
+  --muted:#64738d;
+  --blue:#415bb6;
+  --teal:#118792;
+  --violet:#7f6ab6;
+  --line:#cfd8e5;
+  --soft:#e8eefb;
+}
+text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:var(--ink)}
+.serif{font-family:Georgia,"Times New Roman",serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+@keyframes drift{to{stroke-dashoffset:-120}}
+@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes softmove{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+
+<defs>
+  <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+    <path d="M72 0H0V72" fill="none" stroke="var(--grid)" stroke-width="1"/>
+  </pattern>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+    <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#5f718c" flood-opacity=".10"/>
+  </filter>
+  <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#eef4fb"/>
+    <stop offset=".72" stop-color="#eef6fb"/>
+    <stop offset="1" stop-color="#eaf8f5"/>
+  </linearGradient>
+  <linearGradient id="wash2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#dfeafa"/>
+    <stop offset="1" stop-color="#dff5f1"/>
+  </linearGradient>
+</defs>
+
+<rect width="1155" height="581" fill="var(--bg)"/>
+<rect width="1155" height="581" fill="url(#grid)" opacity=".78"/>
+<g filter="url(#shadow)"><rect x="18" y="10" width="1104" height="548" rx="30" fill="url(#wash)" stroke="#8bc8d0"/></g>
+<path d="M904 10c0 0 8 105 73 154 37 28 79 37 145 38" fill="none" stroke="#d0c8e7" stroke-width="1.3"/>
+<rect x="953" y="397" width="99" height="99" rx="25" fill="none" stroke="#8bc8d0" transform="rotate(45 1002.5 446.5)" style="animation:floaty 6s ease-in-out infinite"/>
+
+<text x="59" y="69" class="mono" font-size="14" font-weight="800" letter-spacing="4" fill="var(--teal)">03 / MACHINE LEARNING SYSTEM</text>
+<text x="59" y="126" class="serif" font-size="27" font-weight="700">Cognisafe</text>
+<text x="59" y="162" font-size="21" font-weight="700" fill="var(--blue)">Cognitive health monitoring and risk classification system</text>
+<text x="59" y="214" font-size="17" fill="var(--muted)">A machine-learning based system designed to process behavioural indicators and classify potential</text>
+<text x="59" y="238" font-size="17" fill="var(--muted)">cognitive risk patterns. The work emphasises data preparation, model-oriented classification, and</text>
+<text x="59" y="262" font-size="17" fill="var(--muted)">interpretable behavioural pattern analysis.</text>
+
+<text x="59" y="325" font-size="21" font-weight="700" fill="var(--teal)">Py</text><text x="96" y="325" font-size="16" fill="var(--muted)">Python</text>
+<text x="161" y="325" font-size="22" fill="var(--muted)">▥</text><text x="205" y="325" font-size="16" fill="var(--muted)">Data Processing</text>
+<text x="334" y="325" font-size="22" fill="var(--muted)">✣</text><text x="379" y="325" font-size="16" fill="var(--muted)">ML Classification</text>
+<text x="516" y="325" font-size="22" font-weight="700" fill="var(--teal)">P</text><text x="550" y="325" font-size="16" fill="var(--muted)">Pandas</text>
+<text x="59" y="400" font-size="16" font-weight="700" fill="var(--teal)">View Repository</text>
+<path d="M210 388h17v17M227 388l-17 17" fill="none" stroke="var(--teal)" stroke-width="3"/>
+
+</svg>
