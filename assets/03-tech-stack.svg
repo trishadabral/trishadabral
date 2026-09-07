@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img">
+
+<style>
+  :root{
+    --ink:#15213a;--muted:#5d6b80;--indigo:#4257a8;--teal:#187f83;--violet:#7962aa;
+    --line:#cfd7e6;--soft:#f6f8fc;--panel:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#edf3ff;--muted:#aebcd0;--indigo:#9cafff;--teal:#79d7d1;--violet:#cbb5ff;
+      --line:#33415f;--soft:#101827;--panel:#172134;
+    }
+  }
+  text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:var(--ink)}
+  .muted{fill:var(--muted)}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .line{stroke:var(--line)}
+  .indigo{stroke:var(--indigo);fill:none}
+  .teal{stroke:var(--teal);fill:none}
+  .violet{stroke:var(--violet);fill:none}
+  .fill-indigo{fill:var(--indigo)}
+  .fill-teal{fill:var(--teal)}
+  .fill-violet{fill:var(--violet)}
+  @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  @keyframes dash{to{stroke-dashoffset:-48}}
+  @keyframes blink{0%,46%,54%,100%{opacity:1}50%{opacity:.15}}
+  @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+  @keyframes scan{0%{transform:translateX(-40px);opacity:0}20%{opacity:.7}80%{opacity:.7}100%{transform:translateX(260px);opacity:0}}
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none!important}
+  }
+</style>
+
+
+<rect width="1200" height="180" rx="22" fill="var(--soft)"/>
+<rect x="1" y="1" width="1198" height="178" rx="21" fill="none" stroke="var(--line)"/>
+<text x="54" y="66" font-size="15" class="mono" font-weight="700" fill="var(--teal)">02 / TECH STACK</text>
+<text x="54" y="112" font-size="34" font-weight="700">Languages, frameworks, AI/data tools, and developer tooling.</text>
+<g transform="translate(875 38)">
+  <g style="animation:drift 5s ease-in-out infinite">
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="27" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="var(--indigo)">Py</text>
+  </g>
+  <g transform="translate(64 0)" style="animation:drift 6s ease-in-out infinite reverse">
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="27" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="var(--teal)">JS</text>
+  </g>
+  <g transform="translate(128 0)" style="animation:drift 5.5s ease-in-out infinite">
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="27" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="var(--violet)">C++</text>
+  </g>
+  <g transform="translate(192 0)" style="animation:drift 6.5s ease-in-out infinite reverse">
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="27" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="var(--indigo)">Git</text>
+  </g>
+  <path d="M0 78H246" stroke="var(--line)"/>
+  <path d="M0 78H76" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" style="animation:scan 4s ease-in-out infinite"/>
+</g>
+
+</svg>

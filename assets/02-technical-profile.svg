@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img">
+
+<style>
+  :root{
+    --ink:#15213a;--muted:#5d6b80;--indigo:#4257a8;--teal:#187f83;--violet:#7962aa;
+    --line:#cfd7e6;--soft:#f6f8fc;--panel:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#edf3ff;--muted:#aebcd0;--indigo:#9cafff;--teal:#79d7d1;--violet:#cbb5ff;
+      --line:#33415f;--soft:#101827;--panel:#172134;
+    }
+  }
+  text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:var(--ink)}
+  .muted{fill:var(--muted)}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .line{stroke:var(--line)}
+  .indigo{stroke:var(--indigo);fill:none}
+  .teal{stroke:var(--teal);fill:none}
+  .violet{stroke:var(--violet);fill:none}
+  .fill-indigo{fill:var(--indigo)}
+  .fill-teal{fill:var(--teal)}
+  .fill-violet{fill:var(--violet)}
+  @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  @keyframes dash{to{stroke-dashoffset:-48}}
+  @keyframes blink{0%,46%,54%,100%{opacity:1}50%{opacity:.15}}
+  @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+  @keyframes scan{0%{transform:translateX(-40px);opacity:0}20%{opacity:.7}80%{opacity:.7}100%{transform:translateX(260px);opacity:0}}
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none!important}
+  }
+</style>
+
+
+<rect width="1200" height="180" rx="22" fill="var(--soft)"/>
+<rect x="1" y="1" width="1198" height="178" rx="21" fill="none" stroke="var(--line)"/>
+<text x="54" y="72" font-size="15" class="mono" font-weight="700" fill="var(--teal)">01 / TECHNICAL PROFILE</text>
+<text x="54" y="116" font-size="34" font-weight="700">What I work on — and the fundamentals behind it.</text>
+<g transform="translate(860 35)">
+  <rect x="0" y="0" width="245" height="110" rx="18" fill="var(--panel)" stroke="var(--line)"/>
+  <circle cx="44" cy="55" r="18" fill="none" stroke="var(--indigo)" stroke-width="3"/>
+  <path d="M44 28V14M44 96v14M17 55H3M85 55H99" stroke="var(--line)" stroke-width="2"/>
+  <path d="M79 55c0 19-16 35-35 35" fill="none" stroke="var(--teal)" stroke-width="3" stroke-dasharray="7 7" style="animation:dash 4s linear infinite"/>
+  <text x="92" y="48" font-size="14" font-weight="700">AI + Backend</text>
+  <text x="92" y="72" font-size="13" class="muted">DSA • OOP • DBMS • OS</text>
+</g>
+
+</svg>

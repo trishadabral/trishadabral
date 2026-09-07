@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">
+
+<style>
+  :root{
+    --ink:#15213a;--muted:#5d6b80;--indigo:#4257a8;--teal:#187f83;--violet:#7962aa;
+    --line:#cfd7e6;--soft:#f6f8fc;--panel:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#edf3ff;--muted:#aebcd0;--indigo:#9cafff;--teal:#79d7d1;--violet:#cbb5ff;
+      --line:#33415f;--soft:#101827;--panel:#172134;
+    }
+  }
+  text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:var(--ink)}
+  .muted{fill:var(--muted)}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .line{stroke:var(--line)}
+  .indigo{stroke:var(--indigo);fill:none}
+  .teal{stroke:var(--teal);fill:none}
+  .violet{stroke:var(--violet);fill:none}
+  .fill-indigo{fill:var(--indigo)}
+  .fill-teal{fill:var(--teal)}
+  .fill-violet{fill:var(--violet)}
+  @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  @keyframes dash{to{stroke-dashoffset:-48}}
+  @keyframes blink{0%,46%,54%,100%{opacity:1}50%{opacity:.15}}
+  @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+  @keyframes scan{0%{transform:translateX(-40px);opacity:0}20%{opacity:.7}80%{opacity:.7}100%{transform:translateX(260px);opacity:0}}
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none!important}
+  }
+</style>
+
+
+<rect width="1200" height="360" rx="26" fill="var(--soft)"/>
+<rect x="1" y="1" width="1198" height="358" rx="25" fill="none" stroke="var(--line)"/>
+<g opacity=".35">
+  <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200" class="line"/>
+  <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360" class="line"/>
+</g>
+
+<text x="68" y="92" font-size="46" font-weight="700">Trisha Dabral</text>
+<text x="68" y="138" font-size="26" font-weight="700" fill="var(--indigo)">AI Full Stack Developer</text>
+<text x="68" y="185" font-size="18" class="muted">Building intelligent, scalable applications across Full Stack Development and AI/ML.</text>
+
+<g class="mono">
+  <text x="68" y="237" font-size="15" font-weight="700" fill="var(--teal)">Direction /</text>
+  <text x="185" y="237" font-size="15" font-weight="700">AI / Machine Learning</text>
+  <rect x="350" y="223" width="8" height="18" rx="2" class="fill-teal" style="animation:blink 1.2s steps(1) infinite"/>
+</g>
+
+<!-- developer illustration -->
+<g transform="translate(720 55)" style="animation:floatY 5s ease-in-out infinite">
+  <!-- desk -->
+  <rect x="30" y="210" width="365" height="10" rx="5" fill="var(--line)"/>
+  <rect x="80" y="220" width="12" height="65" rx="5" fill="var(--line)"/>
+  <rect x="338" y="220" width="12" height="65" rx="5" fill="var(--line)"/>
+
+  <!-- developer -->
+  <circle cx="105" cy="95" r="34" fill="var(--panel)" stroke="var(--indigo)" stroke-width="3"/>
+  <path d="M77 89c8-28 49-33 60-3" fill="none" stroke="var(--ink)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M86 134c18-10 39-10 57 0l12 70H75z" fill="var(--panel)" stroke="var(--line)" stroke-width="2"/>
+  <path d="M96 105h1M120 105h1" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M101 118c5 4 10 4 15 0" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- laptop -->
+  <rect x="142" y="125" width="145" height="92" rx="10" fill="var(--panel)" stroke="var(--indigo)" stroke-width="3"/>
+  <rect x="155" y="141" width="119" height="60" rx="6" fill="var(--soft)" stroke="var(--line)"/>
+  <path d="M169 157h48M169 170h77M169 183h58" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 6" style="animation:dash 4s linear infinite"/>
+  <circle cx="216" cy="209" r="3" class="fill-indigo"/>
+
+  <!-- small AI robot -->
+  <g transform="translate(300 95)" style="animation:floatY 3.8s ease-in-out infinite">
+    <rect x="0" y="22" width="78" height="66" rx="20" fill="var(--panel)" stroke="var(--violet)" stroke-width="3"/>
+    <rect x="14" y="36" width="50" height="28" rx="10" fill="var(--soft)" stroke="var(--line)"/>
+    <circle cx="30" cy="50" r="4" class="fill-teal" style="animation:blink 2.8s steps(1) infinite"/>
+    <circle cx="49" cy="50" r="4" class="fill-indigo" style="animation:blink 2.8s steps(1) infinite .12s"/>
+    <path d="M34 70h10" stroke="var(--violet)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M39 22V10" stroke="var(--violet)" stroke-width="3"/>
+    <circle cx="39" cy="7" r="5" class="fill-violet" style="animation:pulse 2s ease-in-out infinite"/>
+  </g>
+
+  <!-- data path -->
+  <path d="M286 158 C315 150 320 145 332 138" class="teal" stroke-width="2" stroke-dasharray="5 8" style="animation:dash 3s linear infinite"/>
+  <circle cx="302" cy="153" r="4" class="fill-teal" style="animation:pulse 2s ease-in-out infinite"/>
+</g>
+
+<!-- subtle accent -->
+<path d="M60 318 C270 286 430 340 635 312" fill="none" stroke="var(--indigo)" stroke-opacity=".18" stroke-width="2"/>
+
+</svg>
