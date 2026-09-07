@@ -1,8 +1,3 @@
-# SVG section usage
-
-Upload the `assets/` folder to your profile repository, then use:
-
-```md
 <p align="center">
   <img src="./assets/01-hero.svg" alt="Trisha Dabral — AI Full Stack Developer" width="100%" />
 </p>
@@ -36,9 +31,3 @@ Upload the `assets/` folder to your profile repository, then use:
 
 ## Connect
 <!-- LinkedIn / GitHub / LeetCode / Email -->
-```
-
-Important:
-- Keep real text, links, badges, and project details in Markdown/HTML below each SVG.
-- Use the SVGs as section visuals, not as the only source of content.
-- The SVG files use no JavaScript and no external libraries.
